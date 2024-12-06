@@ -18,7 +18,7 @@ const founders = [
     {
       name: "Kayla Bristol",
       title: "Pookie",
-      bio: "Dr. Kayla holds a PhD in knowing shit",
+      bio: "Dr. Kayla holds a PhD",
       img: "./src/images/kb.jpeg",
       id: 3,
     },

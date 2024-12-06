@@ -24,15 +24,15 @@ const App = () => {
 
   return (
     <>
-    <Navbar handleSection={handleSection}/>
-    
+    <Navbar handleSection={handleSection} className="display"/>
+    <div className="nav">
       {currentPage === 'Home' ? <Home/> : ""}
       {currentPage === 'CompanyHistory' ? <CompanyHistory/> : ""}
       {currentPage === 'MeetOurTeam' ? <FounderListItem/> : ""}
       {currentPage === 'PastWork' ? <PastWork/> : ""}
       {currentPage === 'Links' ? <Links/> : ""}
       {currentPage === 'Contact' ? <Contact/> : ""}
-      
+    </div>
     </>
   );
 };
