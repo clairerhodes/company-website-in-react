@@ -1,7 +1,7 @@
 const Home = () => {
       return (
         <>
-          <h1>lil pookiannas ❤︎</h1>
+          <img src= "./src/images/logo.png" className="logo"/>
         </>
       );
     };

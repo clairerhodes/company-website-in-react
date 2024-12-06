@@ -4,7 +4,7 @@ const founders = [
     {
       name: "Claire Rhodes",
       title: "Pookie",
-      bio: "professional le$bean bitch queer icon with a doctorate in eating pussy",
+      bio: "professional le$bean queer icon with a doctorate in being a bad bitch",
       img: "./src/images/cr.jpg",
       id: 1,
     },
@@ -18,7 +18,7 @@ const founders = [
     {
       name: "Kayla Bristol",
       title: "Pookie",
-      bio: "Dr. Kayla holds a PhD in ASStrophysics",
+      bio: "Dr. Kayla holds a PhD in knowing shit",
       img: "./src/images/kb.jpeg",
       id: 3,
     },
@@ -37,6 +37,7 @@ const FounderListItem = () => {
 
     return (
         <>
+          <h1>Meet the Pookies</h1>
             <ul>
                 {founders.map((founder, index) => (
                 // <FounderListItem
